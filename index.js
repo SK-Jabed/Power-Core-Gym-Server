@@ -13,6 +13,6 @@ app.get('/', (req, res) => {
     res.send("Power Core Gym Server is Running");
 })
 
-app.listen(port, (req, res) => {
+app.listen(port, () => {
     console.log(`Power Core Gym Server is Running on Port: ${port}`);
 })
