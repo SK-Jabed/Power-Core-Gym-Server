@@ -9,6 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 
+
+
 app.get('/', (req, res) => {
     res.send("Power Core Gym Server is Running");
 })
